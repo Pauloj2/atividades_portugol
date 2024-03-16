@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+
+int main () {
+
+    int distancia;
+    double combustivel, media;
+
+    scanf("%d %lf", &distancia, &combustivel);
+    media = distancia /combustivel;
+
+    printf("%.3lf km/l\n", media);
+
+return 0;
+}
